@@ -1,0 +1,16 @@
+var Degrees = 27
+
+
+if Degrees <= 0 {
+    print ("It's freezing")
+} else if Degrees <= 10 {
+    print("I need a coat")
+} else if Degrees <= 20 {
+    print("It's fresh and nippie")
+} else if Degrees <= 30 {
+    print("Must be spring")
+} else if Degrees <= 40 {
+    print("Global warming huh")
+} else if Degrees > 40 {
+    print("Oh I guess we should of worried about climate change")
+}
